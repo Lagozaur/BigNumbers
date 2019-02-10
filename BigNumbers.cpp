@@ -110,7 +110,7 @@ byte lowerEnd[8] =
 
 // Creates BigNumbers object
 // LiquidCrystal* lcd: LiquidCrystal object to use
-BigNumbers::BigNumbers(LiquidCrystal* lcd)
+BigNumbers::BigNumbers(LiquidCrystal_I2C* lcd)
 {
   _lcd = lcd;
 }
